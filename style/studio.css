@@ -1,0 +1,191 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+
+}
+input{
+    padding:0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    border-radius:0;
+}
+
+body{
+    font-family: 'Roboto', Arial,'Roboto Condensed', sans-serif;
+    background-color:rgb(43, 42, 42);
+    opacity: 1;
+}
+.studio-header-container{
+    display:flex;
+    justify-content: space-between;
+    height: 45px;
+    border-bottom: 2px solid rgb(22, 20, 20);
+    box-shadow: 2px 2px 5px rgb(22, 20, 20);
+    
+}
+.youtube-menu-player-tex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-humber-alone{
+    width: 30px;
+    margin-right:5px;
+   
+}
+.menu-humbergur{
+    width:100%;
+    background-color: white;
+
+}
+.player-video-icon-alone{
+    width:30px;
+    margin-left:5px;
+    margin-right:3px;
+}   
+.player-video-icon{
+    width: 100%;
+    margin-left: 3px;
+
+}
+.studio-tex-alone{
+    width:75px;
+}
+
+.studio-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(243, 237, 237);
+}
+.search-input-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    
+}
+
+.search-input-channel{
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color:rgb(224, 222, 222);
+    border: none;
+    outline: none;
+
+    
+}
+.search-icon-container{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left:5px;
+}
+.search-icon{
+    width:100%;
+}
+input{
+    padding-left:40px;
+}
+input::placeholder{
+    color: grey;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding:40px;
+}
+.help-notification-alaram-create-user-profile-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    flex-wrap: nowrap;
+}
+.help-icon-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 30px;
+    height:30px;
+    background-color: rgb(50, 50, 50);
+    margin-right:5px;
+    position: relative;
+    border-radius:30px;
+    transition: opacity 0.15s;
+}
+.help-icon{
+    width:20px;
+}
+.help-icon-container:hover{
+    background-color: rgb(59, 59, 59);
+    border-radius:15px;
+    opacity: 1;
+    
+}
+.help-icon-container::after{
+    content:"Help";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 40px;
+    background-color: rgb(85, 83, 83);
+    border:1px solid rgb(22, 20, 20);
+    border-radius:10px;
+    position:absolute;
+    text-align: center;
+    font-weight: 600;
+    font-size:0.8em;
+    color: rgb(255, 255, 255);
+    bottom:-100%;
+    left:-2px;
+    transform: scale(0);
+}
+.help-icon-container:hover::after {
+    transform: scale(1);
+} 
+.alarm-icon-container{
+    width: 30px;
+    height:30px;
+    background-color: rgb(240, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5px;
+    margin-right:5px;
+   
+}
+.alarm-icon{
+    width: 100%;
+}
+
+.create-button-container{
+    width: 50px;
+    height:30px;
+    background-color: brown;
+    margin-left: 5px;
+    margin-right:5px;
+}
+.create-button{
+    width:100%
+}
+.user-profile-container{
+    width: 30px;
+    height:30px;
+    background-color: brown;
+    margin-left: 10px;
+}
+.user-profile{
+    width:100%;
+}
