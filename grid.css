@@ -1,0 +1,26 @@
+
+.box-1{
+    background-color:yellow;
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: bisque;
+}
+.box-4{
+    background-color: bisque;
+}
+.box-5{
+    background-color: blue;
+}
+.box-6{
+    background-color: violet;
+}
+.main{
+    display:grid;
+    color:rgb(165, 49, 49);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:30px;
+    border: 2px solid rgb(154, 45, 45);
+}
