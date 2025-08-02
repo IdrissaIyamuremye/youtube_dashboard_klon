@@ -381,16 +381,9 @@ input::placeholder{
     
 }
 .latest-video-perfomance{
-    background-color: brown;
     padding: 20px;
-    border: 2px solid rgb(255, 68, 0);
+    border: 2px solid rgba(132, 132, 131, 0.848);
     border-radius:20px;
-   
-}
-.title-video-screenshot{
- 
-    border: 2px solid white;
-    border-radius: 15px;
 }
 .header-title-container{
     height: 60px;
@@ -403,8 +396,6 @@ input::placeholder{
     height:250px;
     width:100%;
     border-radius:15px;
-
-
 }
 .video-screenshot{
     height: 100%;
@@ -422,7 +413,7 @@ input::placeholder{
 .video-symbols-stats{
     height: 40px;
     width: 100%;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgba(132, 132, 131, 0.848);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -507,7 +498,6 @@ input::placeholder{
     display: flex;
     justify-content: start;
     align-items: center;
-    border: 1px solid rgb(255, 68, 0)
 }
 .time-last{
     font-size:0.8rem;
@@ -522,7 +512,6 @@ input::placeholder{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid white;
 }
 .view-text-stats,
 .view-number-stats,
@@ -533,6 +522,109 @@ input::placeholder{
     font-size:0.9rem;
     font-weight:400;
     color: white;
+}
+.button-activities{
+    display:flex;
+    flex-direction: column;
+    height:80px;
+    justify-content: space-evenly;
+}
+.go-video-analytics{
+    height: 30px;
+    width:180px;
+    text-align: center;
+    font-size:1rem;
+    color: white;
+    border-radius: 15px;
+    background-color:rgb(118, 117, 117);
+    transition: background-color 0.25s;
+    border: none;
+    outline: none;
+}
+.see-comment{
+    height:30px;
+    width:160px;
+    border: 2px solid white;
+    text-align: center;
+    font-size:1rem;
+    color: white;
+    border-radius: 15px;
+    background-color:rgb(118, 117, 117);
+    transition: background-color 0.25s;
+    border: none;
+    outline: none;
+}
+.see-comment:hover,
+.go-video-analytics:hover{
+    background-color: rgba(173, 171, 171, 0.955);
+}
+/*Channel Analytics*/
+.channel-analytics-container{
+    padding: 20px;
+    border: 2px solid rgba(132, 132, 131, 0.848);
+    border-radius:20px;
+}
+.channel-container{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    border-bottom: 2px solid rgba(132, 132, 131, 0.848);
+}
+.channel-analytics{
+    height: 60px;
+    width:100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.current-subscribers{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight:400;
+
+}
+.subcribers-number{
+    font-size: 2rem;
+    color:white;
+}
+.summary-container{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgba(132, 132, 131, 0.848);
+}
+.summary-header{
+    height: 30px;
+    display:flex;
+    justify-content: start;
+    align-items: end;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+  
+}
+.summary-time-lasted{
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size:0.8rem;
+    color: rgba(94, 93, 93, 0.442);
+}
+.summary-view-container,
+.summary-watch-time-container{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    color:white;
+    font-size:0.8rem;
+    font-weight: 600;
+
 }
 .channel-analytics-container{
     background-color: aqua;
