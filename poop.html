@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popup Table Example</title>
+  <style>
+    /* Basic styling */
+    #popup-table {
+      display: none; /* Hidden by default */
+      position: absolute;
+      top: 60px;
+      left: 20px;
+      border: 1px solid #ccc;
+      background-color: white;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 100;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid #999;
+      padding: 5px 10px;
+    }
+
+    button {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="toggleTable()">Show Table</button>
+
+  <div id="popup-table">
+    <table>
+      <tr><th>Name</th><th>Age</th></tr>
+      <tr><td>John</td><td>30</td></tr>
+      <tr><td>Jane</td><td>25</td></tr>
+    </table>
+  </div>
+
+  <script>
+    function toggleTable() {
+      const table = document.getElementById("popup-table");
+      table.style.display = table.style.display === "none" ? "block" : "none";
+    }
+  </script>
+
+</body>
+</html>

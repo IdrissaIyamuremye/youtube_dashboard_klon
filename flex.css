@@ -1,0 +1,23 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 5rem
+}
+p::before{
+    content:" Hello";
+    background-color: rebeccapurple;
+   font-size:10px;
+   font-weight: 900;
+   color:white;
+   display:block
+}
+p::after{
+    content:" Hello";
+    background-color: rebeccapurple;
+   font-size:10px;
+   font-weight: 900;
+   color:white;
+   display:block
+}
